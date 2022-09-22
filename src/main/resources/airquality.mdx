@@ -1,0 +1,5 @@
+SELECT
+    {[Measures].[London Mean Background PM2.5 Particulate (ug/m3)]} ON "value"
+    [DATE].[DATE].[Year].allmembers ON "axis"
+FROM
+    [cube]
