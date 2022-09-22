@@ -15,7 +15,7 @@ public class App {
 
         final Connection connection = DriverManager.getConnection(
 
-                "jdbc:xmla:Server=http://localhost:8282/iccube/xmla;Catalog=hello",
+                "jdbc:xmla:Server=http://localhost:8282/icCube/xmla;Catalog=hello",
                 "admin",
                 "admin"
 
